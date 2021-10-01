@@ -1,0 +1,68 @@
+body {
+    background-color:whitesmoke;
+}
+
+.bio-circle {
+    width: 800px;
+    height: 800px;
+    margin:auto;
+    padding: 150px;
+    align-items: center;
+    border: black;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+
+#projects{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: auto;
+    justify-content: center;
+}
+
+.align-text-center{
+    text-align: center;
+}
+
+#pic{
+    width: 150px; 
+}
+
+.card{
+    padding:5px;
+    border-style: solid;
+    border:20px;
+    flex: 1 1 33%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card-img-overlay{
+    padding: 2rem;
+    border: 5px;
+    border-style:solid;
+    border-color:black;
+}
+
+.card-img{
+    width: 100%;
+}
+
+#contactForm{
+    margin-top: 15vw;
+    margin-left:15vw;
+    margin-right:15vw;
+    padding:5vw;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    background-color:rgb(194, 33, 33);
+    
+}
