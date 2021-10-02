@@ -2,12 +2,18 @@ body {
     background-color:whitesmoke;
 }
 
+#landing{
+    background-color: black;
+}
+
 .bio-circle {
     width: 800px;
-    height: 800px;
+    height: 1000px;
     margin:auto;
+    margin-top: 10px;
     padding: 150px;
     align-items: center;
+    background-color: floralwhite;
     border: black;
     border-style: solid;
     border-radius: 50%;
