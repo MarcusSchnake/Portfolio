@@ -8,7 +8,7 @@ body {
 
 .bio-circle {
     width: 800px;
-    height: 1000px;
+    height: 800px;
     margin:auto;
     margin-top: 10px;
     padding: 150px;
@@ -28,6 +28,8 @@ body {
     flex-direction: row;
     align-self: auto;
     justify-content: center;
+    
+
 }
 
 .align-text-center{
@@ -64,11 +66,11 @@ body {
     margin-left:15vw;
     margin-right:15vw;
     padding:5vw;
+    border: 5px black;
     border-radius: 10px;
     
 }
 
 .btn{
-    background-color:rgb(194, 33, 33);
+    background-color:rgb(33, 194, 73);
     
-}
