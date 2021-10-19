@@ -15,7 +15,7 @@
 <body>
     <!--Nav Bar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="conatiner-fluid py-5">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -37,9 +37,9 @@
     <!--Bio section-->
     <section>
         <div class="container-fluid py-5" id="landing">
-            <div class="container-fluid bio-circle align-text-center">
+            <div class="img-fluid py-5 align-text-center" id="bio-circle">
                 <h1 class="my-3">Marcus A. Schnake</h1>
-                <img src="assets/bioPic.jpeg" id="pic" class="rounded mx-auto d-block" alt="MarcusA.Schnake" />
+                <img src="assets/bioPic.jpeg" id="pic" class="img-fluid rounded mx-auto d-block" alt="MarcusA.Schnake" />
                 <h3>Junior Full Stack Web Developer</h3>
                 <p>Thank you for visiting my portfolio! As a new junior web developer I have a passion for learning new
                     skills and a drive to perfect those skills. I live and work in Indianapolis, Indiana and am
@@ -51,66 +51,35 @@
         </div>
 
         <!--Projects display-->
-
-            <div class="container-fluid py-5 bg-light text-black cool-class"  id="projects">
-            <div class="card">
-                <a href="https://marcusschnake.github.io/CSS-Creature-Build/">
-                    <img src="./assets/creature.png" class="card-img creaturePic" alt="..." />
-
-                    <div class="card-img-overlay">
-                        <h1 class="card-title my-5">CSS Creature</h1>
-                        <p class="card-text my-5"> HTML/CSS only build</p>
-                    </div>
-                </a>
+       <a class="img-thumbnail conatiner-fluid">
+           <img src="./assets/badges-webdev_blue.png" class="img-thumbnail" alt="..."> <!--need to add pop out here, a class may be the wrong class type to use, study pop out commands-->
+       </a>
+        
+        
             
-            <div class="card">
-                <a href="https://marcusschnake.github.io/API-Build/">
-                    <img src="./assets/Pokemon Project.png" class="card-img" alt="...">
 
-                    <div class="card-img-overlay">
-                        <h1 class="card-title my-5">API Project 1</h1>
-                        <p class="card-text my-5"> Resting API build</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://marcusschnake.github.io/staticLayout/">
-                    <img src="./assets/Static Layout .png" class="card-img" alt="...">
 
-                    <div class="card-img-overlay">
-                        <h1 class="card-title my-5">Static Project</h1>
-                        <p class="card-text my-5"> Static layout project</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card">
-                <a href="https://api-project-2-60508.web.app/">
-                    <img src="./assets/apiProj2.png" class="card-img" alt="...">
-                    <div class="card-img-overlay">
-                        <h1 class="card-title my-5">NASA API Project</h1>
-                        <p class="card-text my-5"> NASA Software Tech Share API</p>
-                    </div>
-                </a>
-            </div>
+        
+    
 
-        </div>
+
         <!--Skills Section-->
-        <div class="mainBox" id="boxOne">
-            <div class="boxOne">
+        <div class="mainBox conatiner-fluid py-5" id="skills">
+            <div class="skills">
                 <i class="fab fa-js-square icon-size"></i>
                 <i class="fab fa-css3-alt icon-size"></i>
                 <i class="fab fa-html5 icon-size"></i>
                 <i class="fab fa-bootstrap icon-size"></i>
             </div>
-            <div class="box2" id="box2">
-                <a href="https://www.linkedin.com/in/marcus-schnake-b1473589/"><i
-                        class="fab fa-linkedin-in icon-size"></i></a>
+            <div class="secondaryBox conatiner-fluid py-5" id="socialLinks">
+                <a href="https://www.linkedin.com/in/marcus-schnake-b1473589/">
+                    <i class="fab fa-linkedin-in icon-size"></i></a>
                 <a href="https://github.com/MarcusSchnake"><i class="fab fa-github icon-size"></i></a>
             </div>
         </div>
 
         <!--contact form-->
-        <div id="contactForm">
+        <div id="contactForm conatiner-fluid py-5">
             <form action="https://formspree.io/f/meqvdqej" method="POST">
                 <h1>Contact me:</h1>
                 <div class="row mb-3">
