@@ -46,6 +46,10 @@ p{
 
 }
 
+#textBox{
+    max-height:10px;
+}
+
 /* .projectsContainer{
     display:flex;
     flex-wrap: wrap;
