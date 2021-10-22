@@ -2,6 +2,8 @@
     
     background-image: url("https://www.josephfiler.com/images/xl/California-Yosemite-Half-Dome-Sunset-0050.jpg");
     border: 10px solid black;
+    background-repeat:no-repeat;
+    background-size:cover;
     
 
 } 
@@ -23,8 +25,8 @@ p{
 #bio-circle {
    counter-increment: inherit;
     flex-shrink: inherit;
-    width: 800px;
-    height: 800px;
+    width: 750px;
+    height: 750px;
     margin:10px;
     flex-direction:row;
     margin-top: 10px;
@@ -47,7 +49,7 @@ p{
 }
 
 #textBox{
-    max-height:10px;
+    
 }
 
 /* .projectsContainer{

@@ -15,7 +15,7 @@
 <body>
     <!--Nav Bar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="conatiner-fluid py-5">
+        <div class="conatiner-fluid ">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -36,34 +36,54 @@
     </nav>
     <!--Bio section-->
     <section>
-        <div class="container-fluid py-5" id="landing">
+        <div class="container-fluid " id="landing">
             <div class="img-fluid py-5 align-text-center" id="bio-circle">
                 <h1 class="my-3">Marcus A. Schnake</h1>
-                <img src="assets/bioPic.jpeg" id="pic" class="img-fluid rounded mx-auto d-block" alt="MarcusA.Schnake" />
+                <img src="assets/bioPic.jpeg" id="pic" class="img-fluid rounded mx-auto d-block"
+                    alt="MarcusA.Schnake" />
                 <div class="row container-fluid py-5" id="textBox">
-                <h3>Junior Full Stack Web Developer</h3>
-                <p>Thank you for visiting my portfolio! As a new junior web developer I have a passion for learning new
-                    skills and a drive to perfect those skills. I live and work in Indianapolis, Indiana and am
-                    currently enrolled in Eleven Fifty web development program. While I am new to coding, I do have over
-                    20 year of experience in the sales and customer service industry that serve me well in client
-                    interaction and communications department. In my personal life I am a rock climber and coach which
-                    has taught me solid leadership skills and determination.</p>
+                    <h3>Junior Full Stack Web Developer</h3>
+                    <p>Thank you for visiting my portfolio! As a new junior web developer I have a passion for learning
+                        new
+                        skills and a drive to perfect those skills. I live and work in Indianapolis, Indiana and am
+                        currently enrolled in Eleven Fifty web development program. While I am new to coding, I do have
+                        over
+                        20 year of experience in the sales and customer service industry that serve me well in client
+                        interaction and communications department. In my personal life I am a rock climber and coach
+                        which
+                        has taught me solid leadership skills and determination.</p>
                 </div>
             </div>
         </div>
 
         <!--Projects display-->
-       <a class="img-thumbnail conatiner-fluid">
-           <img src="./assets/badges-webdev_blue.png" class="img-thumbnail" alt="..."> <!--need to add pop out here, a class may be the wrong class type to use, study pop out commands-->
-       </a>
-        
-        
-            
+        <a class="img-thumbnail conatiner-fluid">
+            <img src="./assets/badges-webdev_blue.png" class="img-thumbnail" alt="...">
+            <!--need to add pop out here, a class may be the wrong class type to use, study pop out commands-->
+        </a>
+        <!-- Button trigger modal -->
+        <img src="./assets/badges-webdev_blue.png" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </button>
 
-
-        
-    
-
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div></div>
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--Skills Section-->
         <div class="mainBox conatiner-fluid py-5" id="skills">
