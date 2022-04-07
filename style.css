@@ -1,128 +1,75 @@
-#landing{
-    
-    background-image: url("https://www.josephfiler.com/images/xl/California-Yosemite-Half-Dome-Sunset-0050.jpg");
-    border: 10px solid black;
-    background-repeat:no-repeat;
-    background-size:cover;
-    
-
-} 
-
-html{
+html {
     font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 
 }
 
-p{
-    background-color:oldlace;
-    opacity:0.6;
-    background-size:200px;
-
-
-}
+#landing {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://www.josephfiler.com/images/xl/California-Yosemite-Half-Dome-Sunset-0050.jpg");
+    border: 10px solid black;
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow-wrap:normal;
+} 
 
 #bio-circle {
-   counter-increment: inherit;
-    flex-shrink: inherit;
-    width: 750px;
-    height: 750px;
-    margin:10px;
-    flex-direction:row;
-    margin-top: 10px;
-    padding: 150px;
-    align-items: center;
+    width: 100%;
+    height: auto;
     border: black;
     border-style: solid;
     border-radius: 50%;
     text-align: center;
-
+    margin-top: 50px;
 }
 
-#pic{
+#pic {
     height: 150px;
     width: 150px;
     border:1px solid black;
     border-radius:50px;
     clip-path: circle();
+}
+
+#textBox {
+    
 
 }
 
-#textBox{
-    
+#introText {
+    background-color:oldlace;
+    opacity:0.6;
+    width:100vw;
+    word-wrap:break-word;
 }
 
-/* .projectsContainer{
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content:center;
-    border:20px blueviolet
-    
+#bootcampProj {
+   padding:5px;
+   text-align: center;
+   
+}
 
-} */
 
-/* .align-text-center{
-    text-align: center;
+.badgeImage {
+    width:250px;
+    height: 250px;
+    ;
+}
 
-} */
-
-/* .card{
-    height:100%;
-    padding:5px;
-    border:2px solid red;
-    flex: 1 1 50%;
-    flex-direction: row;
-    flex-wrap:wrap;
-    max-width: 25%;
-    /* background-size: cover; 
-    
-} */
-
-/* .cool-class{
-    background-size: cover grey;
-    
-
-} */
-
- /* .card-img-overlay{
-    display:flex;
-    align-items: flex-end;
-     
-}  */
-
-/* .card-img{
-    width: 300px
-    
-    
-} */
-
-/* .creaturePic{
-    height:195px;
-    width:334px
-
-} */
-
-#contactForm{
+#contactForm {
     margin-top: 5vw;
     margin-left:15vw;
     margin-right:15vw;
     padding:5vw;
     border: 10px black;
     border-radius: 10px;
-    
-}
-
-.btn{
-    background-color:blue;
-    
 }
 
 .icon-size { 
     width:100px;
     font-size:100px;
     margin: 10px 10px 10px 10px;
-
 }
 
 .skills {
@@ -132,7 +79,6 @@ p{
     justify-content: center;
     display:flex;
     color: blue;
-
 }
 
 #socialLinks {
@@ -143,14 +89,13 @@ p{
     display: flex;
     color: blue;
     align-items: flex-end;
-
 }
 
-.mainBox {
+.skillsBox {
     width: 100%;
     height: 400px;
     display: flex;
     flex-direction: column;
     background-color: lightgray;
-
 }
+

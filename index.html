@@ -28,45 +28,58 @@
                     <a class="nav-link" href="#box2">Github/Link-In</a>
                     <a class="nav-link" href="#contactForm">Contact me</a>
                     <a class="nav-link" href="./assets/Resume.pdf">Resume</a>
-
-
                 </div>
             </div>
         </div>
     </nav>
     <!--Bio section-->
     <section>
-        <div class="container-fluid " id="landing">
-            <div class="img-fluid py-5 align-text-center" id="bio-circle">
-                <h1 class="my-3">Marcus A. Schnake</h1>
-                <img src="assets/bioPic.jpeg" id="pic" class="img-fluid rounded mx-auto d-block"
-                    alt="MarcusA.Schnake" />
-                <div class="row container-fluid py-5" id="textBox">
+        <div class="container-fluid" id="landing">
+            <div class="row" id="bio-circle">
+                <div class="col-lg-12">
+                    <h1 class="my-5">Marcus A. Schnake</h1>
+                    <img src="assets/bioPic.jpeg" id="pic" class="img-fluid rounded mx-auto d-block"
+                        alt="MarcusA.Schnake" />
+                </div>
+                <div class="row container-fluid" id="textBox">
                     <h3>Junior Full Stack Web Developer</h3>
-                    <p>Thank you for visiting my portfolio! As a new junior web developer I have a passion for learning
+                    <p id="introText">Thank you for visiting my portfolio! As a new junior web developer I have a
+                        passion for learning
                         new
                         skills and a drive to perfect those skills. I live and work in Indianapolis, Indiana and am
                         currently enrolled in Eleven Fifty web development program. While I am new to coding, I do have
                         over
                         20 year of experience in the sales and customer service industry that serve me well in client
-                        interaction and communications department. In my personal life I am a rock climber and coach
-                        which
-                        has taught me solid leadership skills and determination.</p>
+                        interaction and communications department. </p>
                 </div>
             </div>
         </div>
 
         <!--Projects display-->
-        <a class="img-thumbnail conatiner-fluid">
-            <img src="./assets/badges-webdev_blue.png" class="img-thumbnail" alt="...">
-            <!--need to add pop out here, a class may be the wrong class type to use, study pop out commands-->
-        </a>
-        <!-- Button trigger modal -->
-        <img src="./assets/badges-webdev_blue.png" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        </button>
+        <div class="bootcampProj" id="bootcampProj">
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <a class="img-thumbnail conatiner-fluid" id="goldBadge">
+                <!-- Button trigger modal -->
+                <img src="./assets/WD_gold.png" class="badgeImage" data-bs-toggle="modal" data-bs-target="#modal1">
+                </button>
+            </a>
+
+            <a class="img-thumbnail conatiner-fluid" id="blueBadge">
+                <!-- Button trigger modal -->
+                <img src="./assets/badges-webdev_blue.png" class="badgeImage" data-bs-toggle="modal"
+                    data-bs-target="#modal2">
+                </button>
+            </a>
+            <a class="img-thumbnail conatiner-fluid" id="redBadge">
+                <!-- Button trigger modal -->
+                <img src="./assets/badges-webdev_red.png" class="badgeImage" data-bs-toggle="modal"
+                    data-bs-target="#modal3">
+                </button>
+
+            </a>
+        </div>
+        <!-- Modal 1 -->
+        <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -78,7 +91,22 @@
                             <div class="col">
                                 <div class="modal-body">
                                     <div class="card" style="width: 18rem;">
-                                        <img src="./assets/Pokemon Project.png" class="card-img-top" alt="...">
+                                        <img src="./assets/creatureProject.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CSS Project </h5>
+                                            <p class="card-text">This was my first project in gold badge, done in css.
+                                            </p>
+                                            <a href="https://marcusschnake.github.io/CSS-Creature-Build/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/Static Layout .png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">API Project 1</h5>
                                             <p class="card-text">This was my first project involving an API.</p>
@@ -92,25 +120,11 @@
                             <div class="col">
                                 <div class="modal-body">
                                     <div class="card" style="width: 18rem;">
-                                        <img src="./assets/Pokemon Project.png" class="card-img-top" alt="...">
+                                        <img src="./assets/.png" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h5 class="card-title">API Project 1</h5>
                                             <p class="card-text">This was my first project involving an API.</p>
-                                            <a href="https://marcusschnake.github.io/API-Build/"
-                                                class="btn btn-primary">View
-                                                Project</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="modal-body">
-                                    <div class="card" style="width: 18rem;">
-                                        <img src="./assets/Pokemon Project.png" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                            <h5 class="card-title">API Project 1</h5>
-                                            <p class="card-text">This was my first project involving an API.</p>
-                                            <a href="https://marcusschnake.github.io/API-Build/"
+                                            <a href="https://marcusschnake.github.io/API-Project-2/"
                                                 class="btn btn-primary">View
                                                 Project</a>
                                         </div>
@@ -126,9 +140,131 @@
                 </div>
             </div>
         </div>
+        <!-- Modal 2 -->
+        <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Blue Badge Projects</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/creatureProject.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CSS Project </h5>
+                                            <p class="card-text">This was my first project in gold badge, done in css.
+                                            </p>
+                                            <a href="https://marcusschnake.github.io/CSS-Creature-Build/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/Static Layout .png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">API Project 1</h5>
+                                            <p class="card-text">This was my first project involving an API.</p>
+                                            <a href="https://marcusschnake.github.io/API-Build/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">API Project 1</h5>
+                                            <p class="card-text">This was my first project involving an API.</p>
+                                            <a href="https://marcusschnake.github.io/API-Project-2/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3 -->
+        <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Red Badge Projects</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/creatureProject.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">CSS Project </h5>
+                                            <p class="card-text">This was my first project in gold badge, done in css.
+                                            </p>
+                                            <a href="https://marcusschnake.github.io/CSS-Creature-Build/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/Static Layout .png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">API Project 1</h5>
+                                            <p class="card-text">This was my first project involving an API.</p>
+                                            <a href="https://marcusschnake.github.io/API-Build/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="modal-body">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="./assets/.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">API Project 1</h5>
+                                            <p class="card-text">This was my first project involving an API.</p>
+                                            <a href="https://marcusschnake.github.io/API-Project-2/"
+                                                class="btn btn-primary">View
+                                                Project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!--Skills Section-->
-        <div class="mainBox conatiner-fluid py-5" id="skills">
+        <div class="skillsBox conatiner-fluid py-5" id="skills">
             <div class="skills conatiner-fluid">
                 <i class="fab fa-js-square icon-size"></i>
                 <i class="fab fa-css3-alt icon-size"></i>
