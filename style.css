@@ -15,16 +15,17 @@ html {
 } 
 
 #bio-circle {
-    width: 100%;
+    /* width: 100%;
     height: auto;
     border: black;
     border-style: solid;
     border-radius: 50%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px; */
 }
 
 #pic {
+    object-position:initial;
     height: 150px;
     width: 150px;
     border:1px solid black;
@@ -40,7 +41,8 @@ html {
 #introText {
     background-color:oldlace;
     opacity:0.6;
-    width:100vw;
+    width:50vw;
+    height:25%;
     word-wrap:break-word;
 }
 
