@@ -1,5 +1,5 @@
 html {
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
     scroll-behavior: smooth;
 
 }
@@ -14,37 +14,35 @@ html {
     overflow-wrap:normal;
 } 
 
-#bio-circle {
-    /* width: 100%;
-    height: auto;
-    border: black;
-    border-style: solid;
-    border-radius: 50%;
-    text-align: center;
-    margin-top: 50px; */
-}
+ #biocard {
+    margin:100px 100px 100px 100px;
+    height:80vh;
+    width:80vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    opacity:0.6;
+    border: grey solid 5px;
+ }
 
 #pic {
-    object-position:initial;
     height: 150px;
-    width: 150px;
-    border:1px solid black;
+    width: 200px;
     border-radius:50px;
     clip-path: circle();
 }
 
-#textBox {
-    
-
+#name {
+    font-family:;
 }
 
-#introText {
+/* #introText {
     background-color:oldlace;
     opacity:0.6;
     width:50vw;
     height:25%;
     word-wrap:break-word;
-}
+} */
 
 #bootcampProj {
    padding:5px;
