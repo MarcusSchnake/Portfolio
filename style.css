@@ -5,6 +5,7 @@ html {
 }
 
 #landing {
+    display:flex;
     height: 100vh;
     width: 100vw;
     background-image: url("https://www.josephfiler.com/images/xl/California-Yosemite-Half-Dome-Sunset-0050.jpg");
@@ -15,8 +16,8 @@ html {
 
  #biocard {
     margin:100px 100px 100px 100px;
-    height:100vh;
-    width:100vw;
+    /* height:100vh;
+    width:100vw; */
     display:flex;
     justify-content:center;
     align-items:center;
@@ -29,6 +30,7 @@ html {
     width: 200px;
     border-radius:50px;
     clip-path: circle();
+    
 }
 
 #name {
