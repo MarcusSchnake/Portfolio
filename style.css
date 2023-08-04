@@ -30,20 +30,12 @@ html {
     width: 200px;
     border-radius:50px;
     clip-path: circle();
-    
+
 }
 
 #name {
     font-family:;
 }
-
-/* #introText {
-    background-color:oldlace;
-    opacity:0.6;
-    width:50vw;
-    height:25%;
-    word-wrap:break-word;
-} */
 
 #bootcampProj {
    padding:5px;
@@ -53,8 +45,8 @@ html {
 
 .badgeImage {
     width:250px;
-    height: 250px;
-    ;
+    height: 250px;b
+    margin:50px;
 }
 
 #contactForm {
