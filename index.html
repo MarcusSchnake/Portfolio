@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
     <!--Nav Bar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="conatiner-fluid ">
@@ -22,7 +23,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#landing">Biography</a>
+                    <a class="nav-link active" aria-current="page" href="#landing">Home</a>
                     <a class="nav-link" href="#bootcampProj">Projects</a>
                     <a class="nav-link" href="#skills">Skills list</a>
                     <a class="nav-link" href="#socialLinks">Github/Link-In</a>
@@ -32,6 +33,7 @@
             </div>
         </div>
     </nav>
+
     <!--Bio section-->
     <section>
         <div class="container-fluid" id="landing">
@@ -44,40 +46,38 @@
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
-                              <h2 class="card-title" id="name">Marcus A. Schnake</h2>
-                              <h3 class="card-title">Full Stack Web Dev</h3>
-                              <p class="card-text">Thank you for visiting my portfolio! As a new junior web developer I have a
-                                passion for learning new skills and a drive to perfect those skills. I live and work in Indianapolis, Indiana and am a graduate of Eleven Fifty Full Stack Web Dev program. </p>
-                            </div>
-                          </div>
+                                    <h2 class="card-title" id="name">Marcus A. Schnake</h2>
+                                    <h3 class="card-title">Full Stack Web Dev</h3>
+                                    <p class="card-text"></p>
+                                </div>
+                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<br>
-<section>  
+    </section>
+
     <!--Projects display-->
+    <section>  
         <div class="bootcampProj" id="bootcampProj">
+                <a class="img-thumbnail conatiner-fluid" id="goldBadge">
+                    <img src="./assets/WD_gold.png" class="badgeImage" data-bs-toggle="modal" data-bs-target="#modal1">
+                    </button>
+                </a>
+    
+                <a class="img-thumbnail conatiner-fluid" id="blueBadge">
+                    <img src="./assets/badges-webdev_blue.png" class="badgeImage" data-bs-toggle="modal"
+                        data-bs-target="#modal2">
+                    </button>
+                </a>
+                <a class="img-thumbnail conatiner-fluid" id="redBadge">
+                    <img src="./assets/badges-webdev_red.png" class="badgeImage" data-bs-toggle="modal"
+                        data-bs-target="#modal3">
+                    </button>
+                </a>
+            </div>
 
-            <a class="img-thumbnail conatiner-fluid" id="goldBadge">
-                <img src="./assets/WD_gold.png" class="badgeImage" data-bs-toggle="modal" data-bs-target="#modal1">
-                </button>
-            </a>
-
-            <a class="img-thumbnail conatiner-fluid" id="blueBadge">
-                <img src="./assets/badges-webdev_blue.png" class="badgeImage" data-bs-toggle="modal"
-                    data-bs-target="#modal2">
-                </button>
-            </a>
-            <a class="img-thumbnail conatiner-fluid" id="redBadge">
-                <img src="./assets/badges-webdev_red.png" class="badgeImage" data-bs-toggle="modal"
-                    data-bs-target="#modal3">
-                </button>
-
-            </a>
-        </div>
         <!-- Modal 1 -->
         <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -140,6 +140,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Modal 2 -->
         <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -201,6 +202,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Modal 3 -->
         <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -261,9 +263,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+        </div> 
+    </section>
+    <br>
         <!--Skills Section-->
+        <section class="skills" id="skills">
         <div class="skillsBox conatiner-fluid py-5" id="skills">
             <div class="skills conatiner-fluid">
                 <i class="fab fa-js-square icon-size"></i>
@@ -277,8 +281,10 @@
                 <a href="https://github.com/MarcusSchnake"><i class="fab fa-github icon-size"></i></a>
             </div>
         </div>
+        </section>
 
         <!--contact form-->
+        <section>
         <div class="contactForm conatiner-fluid py-5" id="contactForm">
             <form action="https://formspree.io/f/meqvdqej" method="POST">
                 <h1>Contact me:</h1>
@@ -305,14 +311,18 @@
                 </div>
             </form>
         </div>
-        <footer class="bg-light text-center text-lg-start">
-            <!-- Copyright -->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                © 2021 Copyright:
-                <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-            </div>
-            Copyright
-        </footer>
+        </section>
+        
+        <!-- Copyright -->
+        <section>
+            <footer class="bg-light text-center text-lg-start">
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2021 Copyright:
+                    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                </div>
+                Copyright
+            </footer>
+        </section>
     </section>
 
     <script src="https://kit.fontawesome.com/8b998f4e06.js" crossorigin="anonymous"></script>

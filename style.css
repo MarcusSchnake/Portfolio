@@ -16,21 +16,20 @@ html {
 
  #biocard {
     margin:100px 100px 100px 100px;
-    /* height:100vh;
-    width:100vw; */
     display:flex;
     justify-content:center;
     align-items:center;
     opacity:0.6;
     border: grey solid 5px;
+    border-radius:5px;
  }
 
 #pic {
+    display:flex;
     height: 150px;
     width: 200px;
     border-radius:50px;
     clip-path: circle();
-
 }
 
 #name {
@@ -38,9 +37,12 @@ html {
 }
 
 #bootcampProj {
+
+   display:flex-center; 
+   margin-top:100px;
    padding:5px;
    text-align: center;
-   
+   height:400px;  
 }
 
 .badgeImage {
@@ -55,16 +57,18 @@ html {
     margin-right:15vw;
     padding:5vw;
     border: 10px black;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .icon-size { 
     width:100px;
+    height:400px;
     font-size:100px;
     margin: 10px 10px 10px 10px;
 }
 
 .skills {
+    display:inline-block;
     margin-top: 40px;
     height: 100%;
     width: 100%;
