@@ -1,49 +1,46 @@
 html {
-    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Times New Roman', Times, serif,Handuck;
     scroll-behavior: smooth;
 
 }
 
-.nav{
-    z-index:+7;
+.navbar{
 
 }
 
 #landing {
-    z-index:+6
-    display:flex;
-    height: 100vh;
+    height: 100vw;
     width: 100vw;
     background-image: url("https://www.josephfiler.com/images/xl/California-Yosemite-Half-Dome-Sunset-0050.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    overflow-wrap:normal;
+    overflow-wrap:cover;
+    background-attachment:scroll;
 } 
 
- #biocard {
-    margin:100px;
-    display:absolute;
-    
+ #bio {
+    position:center;
+    margin:auto;
+    width:310px;
+    padding-top:125px;
+    font-family:handuck;
+    /* display:flex; */
     justify-content:center;
-    align-items:center;
+    /* align-items:center; */
     opacity:0.6;
-    border: grey solid 5px;
+    /* border: grey solid 5px; */
  }
+ 
 
-#pic {
+/* #pic {
     display:flex;
     height: 150px;
     width: 200px;
     border-radius:50px;
     clip-path: circle();
-}
-
-#name {
-    font-family:;
-}
+} */
 
 #bootcampProj {
-    z-index:+5;
    display:flex-center;
    margin: 20px 20px 20px 20px; 
    padding:5px;
@@ -65,17 +62,15 @@ html {
 }
 
 .skillsBox {
-    
-    margin:auto;
-    width: 100%;
+    width: 100vw;
     height: 400px;
+    padding: 10px;
     flex-direction: column;
     background-color: black;
 }
 
 
 .skills {
-    z-index:+4;
     display:inline-block;
     margin:  auto;
     height: 100%;
@@ -86,7 +81,6 @@ html {
 }
 
 #socialLinks {
-    z-index:+3;
     margin: auto;
     height: 100%;
     width: 50%;
@@ -97,7 +91,6 @@ html {
 }
 
 #contactForm {
-    z-index:+2;
     margin-top: 5vw;
     margin-left:15vw;
     margin-right:15vw;
@@ -107,6 +100,6 @@ html {
 }
 
 #footer {
-    z-index:+1;
+    
 }
 
